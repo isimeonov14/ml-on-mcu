@@ -1,0 +1,7 @@
+../Core/Src/main.c:74:1:__io_putchar	2
+../Core/Src/main.c:90:1:__io_getchar	2
+../Core/Src/main.c:113:5:main	3
+../Core/Src/main.c:252:6:SystemClock_Config	5
+../Core/Src/main.c:307:13:MX_USART1_Init	2
+../Core/Src/main.c:341:13:MX_GPIO_Init	1
+../Core/Src/main.c:357:6:Error_Handler	1

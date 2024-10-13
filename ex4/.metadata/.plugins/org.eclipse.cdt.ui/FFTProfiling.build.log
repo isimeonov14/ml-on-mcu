@@ -1,0 +1,35 @@
+16:03:28 **** Incremental Build of configuration Debug for project FFTProfiling ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DDEBUG -DSTM32L475xx -c -I../Middlewares/Third_Party/ARM_CMSIS//CMSIS/Core_A/Include/ -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS//CMSIS/Core/Include/ -I../Core/Inc -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Middlewares/Third_Party/ARM_CMSIS//CMSIS/DSP/Include -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:166:17: warning: "/*" within comment [-Wcomment]
+  166 |                 /* NAIVE IMPLEMENTATION END */
+      |                  
+../Core/Src/main.c:117:15: warning: unused variable 'naiveRuntime' [-Wunused-variable]
+  117 |         float naiveRuntime;
+      |               ^~~~~~~~~~~~
+In file included from ../Core/Src/main.c:30:
+At top level:
+../Core/Inc/CycleCounter.h:6:31: warning: 'SCB_DEMCR' defined but not used [-Wunused-variable]
+    6 | static volatile unsigned int *SCB_DEMCR   ;
+      |                               ^~~~~~~~~
+../Core/Inc/CycleCounter.h:5:31: warning: 'DWT_CONTROL' defined but not used [-Wunused-variable]
+    5 | static volatile unsigned int *DWT_CONTROL ;
+      |                               ^~~~~~~~~~~
+../Core/Inc/CycleCounter.h:4:31: warning: 'DWT_CYCCNT' defined but not used [-Wunused-variable]
+    4 | static volatile unsigned int *DWT_CYCCNT  ;
+      |                               ^~~~~~~~~~
+arm-none-eabi-gcc -o "FFTProfiling.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"C:\Users\Ivan\Desktop\ETH\Semester3\ml-on-mcu\ex4\FFTProfiling.zip_expanded\FFTProfiling\STM32L475VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FFTProfiling.map" -Wl,--gc-sections -static -L../Core --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FFTProfiling.elf
+ 
+arm-none-eabi-size  FFTProfiling.elf 
+arm-none-eabi-objdump -h -S FFTProfiling.elf  > "FFTProfiling.list"
+   text	   data	    bss	    dec	    hex	filename
+  62128	    476	   1996	  64600	   fc58	FFTProfiling.elf
+Finished building: default.size.stdout
+ 
+Finished building: FFTProfiling.list
+ 
+
+16:03:29 Build Finished. 0 errors, 5 warnings. (took 1s.192ms)
+
