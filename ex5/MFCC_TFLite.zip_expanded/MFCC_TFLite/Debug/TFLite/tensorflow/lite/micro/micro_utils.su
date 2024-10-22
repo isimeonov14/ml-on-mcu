@@ -1,0 +1,2 @@
+../TFLite/tensorflow/lite/micro/micro_utils.cc:27:5:int tflite::ElementCount(const TfLiteIntArray&)	4	static
+../TFLite/tensorflow/lite/micro/micro_utils.cc:35:6:void tflite::SignedSymmetricPerChannelQuantize(const float*, TfLiteIntArray*, int, int8_t*, float*)	88	static

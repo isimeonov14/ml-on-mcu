@@ -1,0 +1,130 @@
+!SESSION 2024-10-16 10:33:32.173 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-16 10:34:09.636
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-16 10:34:09.637
+!MESSAGE Log4j2 initialized with config file C:\Users\Ivan\Desktop\ETH\Semester3\ml-on-mcu\ex5\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-16 10:34:14.111
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-10-16 10:35:03.704
+!MESSAGE Unexpected overload for binary operator 28: 'operator =='
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-10-16 10:35:03.707
+!MESSAGE Unexpected overload for binary operator 28: 'operator =='
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-10-16 10:35:03.710
+!MESSAGE Unexpected overload for binary operator 28: 'operator =='
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-16 10:35:14.903
+!MESSAGE Indexed 'MFCC_TFLite' (162 sources, 502 headers) in 21.7 sec: 72,781 declarations; 197,772 references; 4 unresolved inclusions; 29 syntax errors; 599 unresolved names (0.22%)
+!SESSION 2024-10-22 12:49:29.195 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-22 12:49:46.399
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-22 12:49:46.403
+!MESSAGE Log4j2 initialized with config file C:\Users\Ivan\Desktop\ETH\Semester3\ml-on-mcu\ex5\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-22 12:49:53.538
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-10-22 12:52:58.196 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-22 12:53:04.426
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-22 12:53:04.428
+!MESSAGE Log4j2 initialized with config file C:\Users\Ivan\Desktop\ETH\Semester3\ml-on-mcu\ex5\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-22 12:53:08.681
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-10-22 12:55:48.006 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-22 12:55:56.097
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-22 12:55:56.098
+!MESSAGE Log4j2 initialized with config file C:\Users\Ivan\Desktop\ETH\Semester3\ml-on-mcu\ex5\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-22 12:55:59.661
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-10-22 12:58:22.357 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\Ivan\Desktop\ETH\Semester3\ml-on-mcu\ex5\MFCC_TFLite.zip_expanded\MFCC_TFLite\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\Ivan\Desktop\ETH\Semester3\ml-on-mcu\ex5\MFCC_TFLite.zip_expanded\MFCC_TFLite\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-22 12:58:28.004
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-22 12:58:28.005
+!MESSAGE Log4j2 initialized with config file C:\Users\Ivan\Desktop\ETH\Semester3\ml-on-mcu\ex5\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-22 12:58:31.854
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-10-22 12:58:45.726
+!MESSAGE Unexpected overload for binary operator 28: 'operator =='
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-10-22 12:58:45.772
+!MESSAGE Unexpected overload for binary operator 28: 'operator =='
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-10-22 12:58:45.774
+!MESSAGE Unexpected overload for binary operator 28: 'operator =='
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-22 12:58:56.949
+!MESSAGE Indexed 'MFCC_TFLite' (163 sources, 514 headers) in 22.4 sec: 74,467 declarations; 203,808 references; 3 unresolved inclusions; 29 syntax errors; 753 unresolved names (0.27%)
+!SESSION 2024-10-22 13:44:37.563 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-22 13:44:57.590
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-22 13:44:57.596
+!MESSAGE Log4j2 initialized with config file C:\Users\Ivan\Desktop\ETH\Semester3\ml-on-mcu\ex5\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-22 13:45:08.535
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-10-22 13:47:10.717 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-22 13:47:35.613
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-22 13:47:35.618
+!MESSAGE Log4j2 initialized with config file C:\Users\Ivan\Desktop\ETH\Semester3\ml-on-mcu\ex5\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-22 13:47:44.803
+!MESSAGE Started RMI Server, listening on port 41337

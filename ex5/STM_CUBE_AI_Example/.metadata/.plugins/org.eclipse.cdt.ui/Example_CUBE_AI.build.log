@@ -1,0 +1,10 @@
+14:18:26 **** Incremental Build of configuration Debug for project Example_CUBE_AI ****
+make -j12 all 
+arm-none-eabi-size  Example_CUBE_AI.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 133756	   4484	  52032	 190272	  2e740	Example_CUBE_AI.elf
+Finished building: default.size.stdout
+ 
+
+14:18:26 Build Finished. 0 errors, 0 warnings. (took 356ms)
+
