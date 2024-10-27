@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Image_Classification_Inference/Drivers/CMSIS&apos;" deleteContents="false" description="Delete resource &apos;Image_Classification_Inference/Drivers/CMSIS&apos;" element1="/Image_Classification_Inference/Drivers/CMSIS" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1729666566932"/>
+</session>

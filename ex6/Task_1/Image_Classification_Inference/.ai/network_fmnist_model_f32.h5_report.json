@@ -1,0 +1,210 @@
+{
+    "_allocate_inputs": 4,
+    "_allocate_outputs": 4,
+    "cli_parameters": "generate --target stm32l4 --name network -m C:/Users/Ivan/Desktop/ETH/Semester3/ml-on-mcu/ex6/jupyter/models/fmnist_model_f32.h5 --compression none --verbosity 1 --allocate-inputs --allocate-outputs --workspace C:/Users/Ivan/AppData/Local/Temp/mxAI_workspace15979011041001287102123570530219 --output C:/Users/Ivan/.stm32cubemx/network_output",
+    "cli_version": {
+        "extra": "19894",
+        "major": 1,
+        "micro": 0,
+        "minor": 0
+    },
+    "cli_version_str": "1.0.0-19894",
+    "code_size": 0,
+    "compression": [],
+    "date_time": "2024-10-27T18:43:04+0100",
+    "error": 0,
+    "error_str": [],
+    "exec_cmd": "generate",
+    "exec_duration": 0.0,
+    "hash": "0x380258ce5506a98e73c694c25900e899",
+    "inputs": [
+        "input_0"
+    ],
+    "layers": [
+        {
+            "c_id": [],
+            "extras": {
+                "n_macc": 0,
+                "n_params": 0,
+                "psize": 0,
+                "rom_output": {
+                    "c_size": 3136,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        28,
+                        28
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 0,
+            "inputs": [],
+            "name": "input_0",
+            "original": null,
+            "type": "Input"
+        },
+        {
+            "c_id": [],
+            "extras": {
+                "n_macc": 0,
+                "n_params": 0,
+                "psize": 0,
+                "rom_size": 0
+            },
+            "id": 0,
+            "inputs": [
+                "input_0"
+            ],
+            "name": "reshape",
+            "original": "Reshape",
+            "type": "Reshape"
+        },
+        {
+            "c_id": [],
+            "extras": {
+                "n_macc": 73020,
+                "n_params": 120,
+                "psize": 480,
+                "rom_output": {
+                    "c_size": 8112,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        13,
+                        12,
+                        13
+                    ]
+                },
+                "rom_size": 0
+            },
+            "id": 1,
+            "inputs": [
+                "reshape"
+            ],
+            "name": "conv2d_conv2d",
+            "original": "Conv2D",
+            "type": "Conv2D"
+        },
+        {
+            "c_id": [],
+            "extras": {
+                "n_macc": 8112,
+                "n_params": 0,
+                "psize": 0,
+                "rom_size": 0
+            },
+            "id": 1,
+            "inputs": [
+                "conv2d_conv2d"
+            ],
+            "name": "conv2d",
+            "original": "Conv2D",
+            "type": "Nonlinearity"
+        },
+        {
+            "c_id": [
+                0
+            ],
+            "extras": {
+                "n_macc": 8112,
+                "n_params": 0,
+                "psize": 0,
+                "rom_size": 480
+            },
+            "id": 2,
+            "inputs": [
+                "conv2d"
+            ],
+            "name": "max_pooling2d",
+            "original": "MaxPooling2D",
+            "type": "Pool"
+        },
+        {
+            "c_id": [],
+            "extras": {
+                "n_macc": 0,
+                "n_params": 0,
+                "psize": 0,
+                "rom_size": 0
+            },
+            "id": 3,
+            "inputs": [
+                "max_pooling2d"
+            ],
+            "name": "flatten",
+            "original": "Flatten",
+            "type": "Reshape"
+        },
+        {
+            "c_id": [
+                1
+            ],
+            "extras": {
+                "n_macc": 20290,
+                "n_params": 20290,
+                "psize": 81160,
+                "rom_output": {
+                    "c_size": 40,
+                    "fmt": {
+                        "format": "float"
+                    },
+                    "shape": [
+                        10
+                    ]
+                },
+                "rom_size": 81160
+            },
+            "id": 4,
+            "inputs": [
+                "flatten"
+            ],
+            "name": "dense",
+            "original": "Dense",
+            "type": "Dense"
+        }
+    ],
+    "model_files": [
+        "C:\\Users\\Ivan\\Desktop\\ETH\\Semester3\\ml-on-mcu\\ex6\\jupyter\\models\\fmnist_model_f32.h5"
+    ],
+    "model_n_params": 20410,
+    "model_name": "fmnist_model_f32",
+    "model_size": 81640,
+    "model_type": "keras",
+    "name": "network",
+    "outputs": [
+        "dense"
+    ],
+    "ram_io_size": [
+        0,
+        0
+    ],
+    "ram_size": 12004,
+    "report_version": 1.1,
+    "rom_cfact": 1.0,
+    "rom_heap_inspector": 2048,
+    "rom_inputs": [
+        {
+            "c_size": 3136,
+            "c_type": "float",
+            "name": "input_0"
+        }
+    ],
+    "rom_n_macc": 109534,
+    "rom_outputs": [
+        {
+            "c_size": 40,
+            "c_type": "float",
+            "name": "dense"
+        }
+    ],
+    "rom_size": 81640,
+    "strategy": "",
+    "tools_api_version": "1.0.0-19894",
+    "tools_version": "1.0.0-19894",
+    "val_error": -1.0,
+    "val_error_desc": "None (None) #-1",
+    "val_metrics": []
+}

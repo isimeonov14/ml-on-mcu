@@ -1,0 +1,66 @@
+!SESSION 2024-10-23 08:31:58.359 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-23 08:33:45.664
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-23 08:33:45.665
+!MESSAGE Log4j2 initialized with config file C:\Users\Ivan\Desktop\ETH\Semester3\ml-on-mcu\ex6\Task_1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-23 08:33:49.029
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-23 08:36:47.159
+!MESSAGE Indexed 'Image_Classification_Inference' (32 sources, 91 headers) in 4.02 sec: 8,326 declarations; 58,940 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.003%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-23 09:06:45.329
+!MESSAGE Indexed 'Image_Classification_Inference' (677 sources, 142 headers) in 5.28 sec: 19,936 declarations; 211,960 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.00086%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-23 09:12:24.403
+!MESSAGE Indexed 'Image_Classification_Inference' (677 sources, 142 headers) in 4.95 sec: 20,167 declarations; 212,161 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.00086%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-23 09:14:19.140
+!MESSAGE Indexed 'Image_Classification_Inference' (677 sources, 142 headers) in 4.82 sec: 20,167 declarations; 212,161 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.00086%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-10-23 10:35:15.779
+!MESSAGE Unexpected overload for binary operator 28: 'operator =='
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-10-23 10:35:15.784
+!MESSAGE Unexpected overload for binary operator 28: 'operator =='
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-10-23 10:35:15.788
+!MESSAGE Unexpected overload for binary operator 28: 'operator =='
+!SESSION 2024-10-27 18:27:10.210 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-27 18:27:26.679
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-27 18:27:26.682
+!MESSAGE Log4j2 initialized with config file C:\Users\Ivan\Desktop\ETH\Semester3\ml-on-mcu\ex6\Task_1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-27 18:27:38.704
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-10-27 19:56:46.934 -----------------------------------------------
+eclipse.buildId=Version 1.14.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-27 19:56:57.056
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-27 19:56:57.058
+!MESSAGE Log4j2 initialized with config file C:\Users\Ivan\Desktop\ETH\Semester3\ml-on-mcu\ex6\Task_1\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-27 19:57:08.510
+!MESSAGE Started RMI Server, listening on port 41337

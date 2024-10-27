@@ -31,7 +31,7 @@ if __name__ == '__main__':
     print(f'Loaded x with shape: {x_test.shape}')
     print(f'Loaded y with shape: {y_test.shape}')
 
-    ser = serial.Serial(port='COM3', baudrate=115200, timeout=3)
+    ser = serial.Serial(port='COM7', baudrate=115200, timeout=3)
     # flush the serial port
     ser.flush()
     ser.flushInput()
